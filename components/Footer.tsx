@@ -13,11 +13,11 @@ const Footer: React.FC = () => {
         <div className="flex flex-col gap-12">
           <p className="font-mono text-lg md:text-xl leading-relaxed text-[#2E2E5C]/80">
             Find me on{' '}
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#2E2E5C] font-bold underline underline-offset-8 decoration-[#2E2E5C]/20 hover:decoration-[#2E2E5C] transition-all">
+            <a href="https://www.linkedin.com/in/jiangyiwu/" target="_blank" rel="noopener noreferrer" className="text-[#2E2E5C] font-bold underline underline-offset-8 decoration-[#2E2E5C]/20 hover:decoration-[#2E2E5C] transition-all">
               LinkedIn
             </a>
             , check out my code on{' '}
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#2E2E5C] font-bold underline underline-offset-8 decoration-[#2E2E5C]/20 hover:decoration-[#2E2E5C] transition-all">
+            <a href="https://github.com/sophijw" target="_blank" rel="noopener noreferrer" className="text-[#2E2E5C] font-bold underline underline-offset-8 decoration-[#2E2E5C]/20 hover:decoration-[#2E2E5C] transition-all">
               GitHub
             </a>
             , or shoot me an email{' '}

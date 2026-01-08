@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, subtitle, description,
           href={link} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="font-mono text-[11px] font-bold uppercase tracking-widest text-[#2E2E5C] underline underline-offset-8 decoration-[#2E2E5C]/30 hover:decoration-[#2E2E5C] transition-all"
+          className="font-mono text-[13px] font-bold uppercase tracking-widest text-[#2E2E5C] underline underline-offset-[10px] decoration-[#2E2E5C]/40 hover:decoration-[#2E2E5C] transition-all"
         >
           Test the Demo
         </a>

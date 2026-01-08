@@ -32,9 +32,14 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="pt-8">
-            <button className="font-mono text-xs uppercase tracking-[0.2em] font-bold text-[#2E2E5C] border-b-2 border-[#2E2E5C] pb-2 hover:opacity-50 transition-all flex items-center gap-3">
-              Download Resume <Download size={14} />
-            </button>
+            <a 
+              href="https://docs.google.com/document/d/1_fpT2s4YCbYljWLDyVaZmFFp-4cO6qOYIKkZHQOMNHs/edit?tab=t.d3wtguk0r80b" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-mono text-sm uppercase tracking-[0.15em] font-bold text-[#2E2E5C] border-b-2 border-[#2E2E5C] pb-2 hover:opacity-50 transition-all inline-flex items-center gap-3 w-fit"
+            >
+              Download Resume <Download size={16} strokeWidth={2.5} />
+            </a>
           </div>
         </div>
       </div>
