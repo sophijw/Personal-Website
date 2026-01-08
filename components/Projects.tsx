@@ -19,13 +19,15 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="px-6 md:px-12 py-32 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter">Ongoing <br/>Projects</h2>
+    <section id="projects" className="px-6 md:px-12 py-32 border-t border-[#2E2E5C]/5">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-12 lg:gap-24">
+        {/* Sticky Label */}
+        <div className="lg:sticky lg:top-12 h-fit">
+          <span className="font-mono text-[10px] uppercase tracking-[0.3em] opacity-50">Ongoing Projects</span>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
+
+        {/* Projects List */}
+        <div className="flex flex-col">
           {projects.map((project, idx) => (
             <ProjectCard key={idx} {...project} />
           ))}
