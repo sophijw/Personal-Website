@@ -19,11 +19,11 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="px-6 md:px-12 py-32 border-t border-[#2E2E5C]/5">
+    <section id="projects" className="px-6 md:px-12 py-32 border-t border-[#403E3F]/5">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-12 lg:gap-24">
         {/* Sticky Label */}
         <div className="lg:sticky lg:top-12 h-fit">
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] opacity-50">Ongoing Projects</span>
+          <span className="font-mono text-xl md:text-2xl uppercase tracking-tight text-[#EA6800]">Ongoing Projects</span>
         </div>
 
         {/* Projects List */}
