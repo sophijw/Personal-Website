@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
@@ -7,7 +6,7 @@ const Projects: React.FC = () => {
     {
       title: "Unfold",
       subtitle: "Making sense of the world, one story at a time.",
-      description: "I built Unfold because I was tired of drowning in headlines. I realized I was consuming more news than ever, but understanding less about the world. I didn't want another feed that kept me scrolling; I wanted a tool that helped me think. So I designed a quiet space that filters out the noise and connects the dots for you—turning chaos into clear, meaningful history. It’s for anyone who wants to trade anxiety for clarity.",
+      description: "I built Unfold because I was tired of drowning in headlines. I realized I was consuming more news than ever, but understanding less about the world. I didn't want another feed that kept me scrolling; I wanted a tool that helped me think. So I designed a quiet space that filters out the noise and connects the dots for myself, and also for you. It’s for anyone who wants to trade anxiety for clarity.",
       link: "https://unfold-news-timeline-analyzer-422400523342.us-west1.run.app/"
     },
     {
