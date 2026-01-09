@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { ArrowRight } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
@@ -25,9 +25,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, subtitle, description,
           href={link} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="font-mono text-[14px] font-bold uppercase tracking-widest text-[#0034D3] underline underline-offset-[12px] decoration-[#0034D3]/30 hover:decoration-[#0034D3] transition-all"
+          className="font-mono text-[14px] font-bold uppercase tracking-widest text-[#0034D3] underline underline-offset-[12px] decoration-[#0034D3]/30 hover:decoration-[#0034D3] transition-all inline-flex items-center gap-2 group/link"
         >
-          Test the Demo
+          <span>Test the Demo</span>
+          <ArrowRight size={18} strokeWidth={2.5} className="group-hover/link:translate-x-1 transition-transform" />
         </a>
       </div>
     </div>

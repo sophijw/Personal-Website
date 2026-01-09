@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
     {
       title: "Warmdays",
       subtitle: "Bringing the 'human' back to digital birthdays.",
-      description: "Somewhere along the way, wishing a friend 'Happy Birthday' became a chore—a generic notification we swipe away or a copy-pasted text. I wanted to change that. I built Warmdays to replace low-effort pings with intentional connection. It’s a personal experiment in digital intimacy, designed to help us slow down, remember the people who matter, and celebrate them in a way that actually feels warm.",
+      description: "Somewhere along the way, wishing a friend 'Happy Birthday' became a chore, a generic notification we swipe away, or a copy-pasted text. I wanted to change that. I built Warmdays to replace low-effort pings with intentional connection. It’s a personal experiment in digital intimacy, designed to help us slow down, remember the people who matter, and celebrate them in a way that actually feels warm.",
       link: "https://warmdays-422400523342.us-west1.run.app/"
     }
   ];

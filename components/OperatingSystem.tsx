@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const OperatingSystem: React.FC = () => {
@@ -15,7 +14,7 @@ const OperatingSystem: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-12 lg:gap-24">
         {/* Sticky Label */}
         <div className="lg:sticky lg:top-12 h-fit">
-          <span className="font-mono text-xl md:text-2xl uppercase tracking-tight text-[#EA6800]">How I operate.</span>
+          <span className="font-mono text-xl md:text-2xl uppercase tracking-tight text-[#EA6800]">How I operate</span>
         </div>
 
         {/* OS Items */}
